@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(202, 202, 202);
+}
+
+.calculator-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tasbeeh-box {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(254, 254, 254);
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.tasbeeh-display {
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #c9fec4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.tasbeeh-button, .reset-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.made-by {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #777;
+}
+.tasbeeh-button:hover{
+    transform: scale(1.02);
+    background-color: #ccc;
+}
+.reset-button:hover{
+    transform: scale(1.02);
+    background-color: #ff1500;
+}
+.tasbeeh-button a:hover{
+    background-color: #f44336;
+}
+
+.reset-button a:hover{
+background-color: #f44336;
+}
